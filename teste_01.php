@@ -17,4 +17,4 @@ function customSum($positiveInteger) {
 }
 
 $testNumber = 10;
-echo customSum($testNumber);
+echo "Teste - Entrada: " . $testNumber . PHP_EOL . "Saída: " .  customSum($testNumber);
