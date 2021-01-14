@@ -1,20 +1,11 @@
 # Instruções:
 ##     -> Como executar?
-\
         - É possível executar a função com interpretadores de PHP v5.6 ou superior sem problemas.\
         - Para executar o código na web, pode-se utilizar um compilador/interpretador online, como:\
-            - https://www.jdoodle.com/execute-nodejs-online/
-            \
-            - Observação: neste caso, o trecho "module exports = CobrasEscadas" não é necessário
-    - Para executar o código no computador, recomenda-se o uso do NodeJS para a execução\
+            - https://rextester.com/l/php_online_compiler
+            - https://www.jdoodle.com/php-online-editor
 \
 ##    -> Como testar?
 \
-        - Para testar a classe, deve-se instanciar uma objeto e chamar a função "jogar(dado1, dado2)".\
-        - Tal função retornará uma mensagem, que pode ser mostrada com a função global console.log. Exemplo:\
-    
-        testGame = new CobrasEscadas();
-        console.log(testGame(1,2));
-\
-        - No repositório, o arquivo testing.js é um exemplo pronto de como testar a classe\
-        - Por fim, exceções foram implmenetadas para permitir testes automatizados, se forem necessários\
+        - Para testar a função, basta modificar a variável $testNumber com o valor desejado de entrada e executar o arquivo.\
+        - Se uma testagem mais robusta for desejada, o método pode ser facilmente integrado a testes unitários, pois exceções de execução foram implementadas.
