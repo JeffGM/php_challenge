@@ -1,5 +1,6 @@
 # Instruções:
 ##     -> Como executar?
+\
         - É possível executar a função com interpretadores de PHP v5.6 ou superior sem problemas.\
         - Para executar o código na web, pode-se utilizar um compilador/interpretador online, como:\
             - https://rextester.com/l/php_online_compiler
